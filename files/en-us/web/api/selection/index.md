@@ -27,7 +27,7 @@ A user may make a selection from left to right (in document order) or right to l
 - {{DOMxRef("Selection.focusOffset")}}{{ReadOnlyInline}}
   - : Returns a number representing the offset of the selection's anchor within the `focusNode`. If `focusNode` is a text node, this is the number of characters within `focusNode` preceding the focus. If `focusNode` is an element, this is the number of child nodes of the `focusNode` preceding the focus.
 - {{DOMxRef("Selection.isCollapsed")}}{{ReadOnlyInline}}
-  - : Returns a Boolean indicating whether the selection's start and end points are at the same position.
+  - : Returns a Boolean indicating whether the selection's anchor and focus are at the same.
 - {{DOMxRef("Selection.rangeCount")}}{{ReadOnlyInline}}
   - : Returns the number of ranges in the selection.
 - {{DOMxRef("Selection.type")}}{{ReadOnlyInline}}
